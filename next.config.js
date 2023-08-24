@@ -4,7 +4,7 @@ const nextConfig = {
 }
 const isGithubActions = process.env.GITHUB_ACTIONS || false
 
-let assetPrefix = './'
+let assetPrefix = ''
 let basePath = ''
 
 if (isGithubActions) {
@@ -12,7 +12,7 @@ if (isGithubActions) {
   const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '')
 
   assetPrefix = `https://${repo}/`
-  basePath = `/${repo}/`
+  basePath = `/${repo}`
 }
 
 module.exports = {
