@@ -17,7 +17,7 @@ export function  Header () {
     <div className="sticky top-0 w-full max-w-[100vw] border-b border-zinc-800">
       {/* Mobile and Desktop Menu */}
       <nav className="py-4 mx-4 flex items-center justify-between">
-        <a  href="#" className="text-white font-semibold text-lg">WEN BARBOSA</a>
+        <a  href="#" className="text-white font-semibold text-lg hover:text-blue-700">WEN BARBOSA</a>
 
         {/* Mobile Menu Button */}
         <button aria-label='menu button' className="mobile-menu-button md:hidden" onClick={toggleMenu}>
