@@ -28,20 +28,20 @@ export function  Header () {
 
         {/* Desktop Menu */}
         <ul className={`hidden md:flex md:space-x-4 ${isMenuOpen ? '' : 'hidden'}`}>
-          <li><a  href="#" className="text-white">Home</a></li>
-          <li><a  href="#about" className="text-white">About</a></li>
-          <li><a  href="#projects" className="text-white">Projects</a></li>
-          <li><a  href="#skills" className="text-white">Skills</a></li>
+          <li><a  href="#" className="text-white hover:text-blue-700">Home</a></li>
+          <li><a  href="#about" className="text-white hover:text-blue-700">About</a></li>
+          <li><a  href="#projects" className="text-white hover:text-blue-700">Projects</a></li>
+          <li><a  href="#skills" className="text-white hover:text-blue-700">Skills</a></li>
         </ul>
       </nav>
 
       {/* Mobile Menu Drawer */}
       <div className={`mobile-menu  ${isMenuOpen ? '' : 'hidden'} md:hidden`}>
         <ul className="flex flex-col bg-zinc-900 rounded-lg py-4">
-          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#" className="block text-white bg-zinc-900">Home</a></li>
-          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#about" className="block text-white bg-zinc-900">About</a></li>
-          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#projects" className="block text-white bg-zinc-900">Projects</a></li>
-          <li className="bg-zinc-900 p-4"><a onClick={closeMenu} href="#skills" className="block text-white bg-zinc-900">Skills</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#" className="block text-white bg-zinc-900">Home</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#about" className="block text-white bg-zinc-900">About</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#projects" className="block text-white bg-zinc-900">Projects</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#skills" className="block text-white bg-zinc-900">Skills</a></li>
         </ul>
       </div>
     </div>
