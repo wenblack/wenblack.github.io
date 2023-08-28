@@ -21,7 +21,7 @@ export function  Header () {
 
         {/* Mobile Menu Button */}
         <button aria-label='menu button' className="mobile-menu-button md:hidden" onClick={toggleMenu}>
-          <svg className="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg className="h-6 w-6 text-white hover:text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
           </svg>
         </button>
@@ -38,10 +38,10 @@ export function  Header () {
       {/* Mobile Menu Drawer */}
       <div className={`mobile-menu  ${isMenuOpen ? '' : 'hidden'} md:hidden`}>
         <ul className="flex flex-col bg-zinc-900 rounded-lg py-4">
-          <li className="bg-zinc-900 p-4 " ><a onClick={closeMenu} href="#" className="block text-white bg-zinc-900 hover:text-blue-700">Home</a></li>
-          <li className="bg-zinc-900 p-4 " ><a onClick={closeMenu} href="#about" className="block text-white bg-zinc-900 hover:text-blue-700">About</a></li>
-          <li className="bg-zinc-900 p-4 " ><a onClick={closeMenu} href="#projects" className="block text-white bg-zinc-900 hover:text-blue-700">Projects</a></li>
-          <li className="bg-zinc-900 p-4 " ><a onClick={closeMenu} href="#skills" className="block text-white bg-zinc-900 hover:text-blue-700">Skills</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#" className="block text-white bg-zinc-900 hover:text-blue-700">Home</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#about" className="block text-white bg-zinc-900 hover:text-blue-700">About</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#projects" className="block text-white bg-zinc-900 hover:text-blue-700">Projects</a></li>
+          <li className="bg-zinc-900 p-4 hover:text-blue-700" ><a onClick={closeMenu} href="#skills" className="block text-white bg-zinc-900 hover:text-blue-700">Skills</a></li>
         </ul>
       </div>
     </div>
