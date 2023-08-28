@@ -1,5 +1,5 @@
 1:HL["https://wenblack.github.io//_next/static/css/557be4315c49b306.css",{"as":"style"}]
-0:["VmHHvrl70JIC-0RlubobQ",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"https://wenblack.github.io//_next/static/css/557be4315c49b306.css","precedence":"next"}]],"$L3"]]]]
+0:["AMkyUO8by69brg-HDFihd",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"https://wenblack.github.io//_next/static/css/557be4315c49b306.css","precedence":"next"}]],"$L3"]]]]
 4:I{"id":3466,"chunks":["272:static/chunks/webpack-46a175af85e14f4f.js","253:static/chunks/bce60fc1-accffa85d009e392.js","961:static/chunks/961-62e3ab3bf4e20865.js"],"name":"default","async":false}
 5:I{"id":372,"chunks":["272:static/chunks/webpack-46a175af85e14f4f.js","253:static/chunks/bce60fc1-accffa85d009e392.js","961:static/chunks/961-62e3ab3bf4e20865.js"],"name":"default","async":false}
 6:I{"id":5681,"chunks":["405:static/chunks/405-e3ac4366da40f3d8.js","931:static/chunks/app/page-70d581fd6141ba89.js"],"name":"Header","async":false}
