@@ -10,7 +10,7 @@ export function AboutMe () {
           👨‍💻
         </div>
         <span className="bg-gray-800 text-blue-400  text-xl">Who i am</span>
-        <h2 className="bg-gray-800 text-3xl text-white mt-2 font-bold mb-4">Wender Barbosa</h2>
+        <h3 className="bg-gray-800 text-3xl text-white mt-2 font-bold mb-4">Wender Barbosa</h3>
         <h4 className=" bg-gray-800 text-lg text-gray-300">Frontend Developer </h4>
           <div className=" bg-gray-800 mt-8">
             <p className="bg-gray-800 text-slate-300  text-justify">Hello there! I&apos;m passionate Front-End Developer in production environment.  Currently focused on mastering React.js, Next.js, and TypeScript, I&apos;m continuously expanding my skill set to deliver top-notch user interfaces.  Let&apos;s create remarkable web experiences together!</p>
